@@ -1,0 +1,40 @@
+.meals {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+@media only screen {
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 10px;
+    padding-top: 10px;
+  }
+}
+
+.meals ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  margin: 1rem;
+  flex: 1 1 20rem;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
