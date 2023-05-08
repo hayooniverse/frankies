@@ -3,6 +3,7 @@ import { Navigate } from "react-router-dom";
 import AuthService from "../../services/auth.service";
 import IUser from "../../types/user.type";
 import Meals from "../../components/Meals/Meals";
+import {ErrorMessage, Field, Form, Formik} from "formik";
 
 type Props = {};
 
@@ -28,7 +29,9 @@ export default class Profile extends Component<Props, State> {
     if (!currentUser) this.setState({ redirect: "/home" });
     this.setState({ currentUser: currentUser, userReady: true })
   }
-
+  handleLogin(formValue: { username: string; password: string }) {
+    const { username, password } = formValue;
+  }
   render() {
     if (this.state.redirect) {
       return <Navigate to={this.state.redirect} />
@@ -36,11 +39,14 @@ export default class Profile extends Component<Props, State> {
 
     const { currentUser } = this.state;
 
+    const initialValues = {
+      username: "",
+      password: "",
+    };
     return (
       <div className="container">
         {(this.state.userReady) ?
           <div className = "container">
-            
             <header className="jumbotron">
               <h3>
                 <strong>Profile</strong>
@@ -54,20 +60,26 @@ export default class Profile extends Component<Props, State> {
               <strong>Email:</strong>{" "}
               {currentUser.email}
             </p>
-            {/* <p>
-              <strong>Token:</strong>{" "}
-              {currentUser.accessToken.substring(0, 20)} ...{" "}
-              {currentUser.accessToken.substr(currentUser.accessToken.length - 20)}
-            </p>
-            <p>
-              <strong>Id:</strong>{" "}
-              {currentUser.id}
-            </p> */}
-            {/* <strong>Authorities:</strong>
-            <ul>
-              {currentUser.roles &&
-                currentUser.roles.map((role, index) => <li key={index}>{role}</li>)}
-            </ul> */}
+            <Formik
+                initialValues={initialValues} onSubmit={this.handleLogin}>
+            <Form>
+              <div className="form-group">
+                <label htmlFor="username">Username</label>
+                <Field name="username" type="text" className="form-control" />
+              </div>
+
+              <div className="form-group">
+                <label htmlFor="password">Password</label>
+                <Field name="password" type="password" className="form-control" />
+              </div>
+
+              <div className="form-group">
+                <button type="submit" className="btn btn-primary btn-block">
+                  <span>Login</span>
+                </button>
+              </div>
+            </Form>
+            </Formik>
           </div> : null}
       </div>
     );

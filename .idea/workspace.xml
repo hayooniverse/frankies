@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="390c601d-4efb-4ca2-ad93-b5ce33bf745e" name="Changes" comment="update">
+    <list default="true" id="390c601d-4efb-4ca2-ad93-b5ce33bf745e" name="Changes" comment="update images">
+      <change afterPath="$PROJECT_DIR$/src/components/Login/order.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/drinksimage/polandsprings.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/foodimage/garlicsalmon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/foodimage/garlicsalmon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/foodimage/salmonteriyaki.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/foodimage/salmonteriyaki.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Meals/AvailableDrinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/AvailableDrinks.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Meals/MealItem/MealItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/MealItem/MealItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Meals/MealItem/MealItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/MealItem/MealItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/profile.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/profile.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Sophia/PycharmProjects/untitled/src/server.js",
+    "last_opened_file_path": "C:/Users/Sophia/PycharmProjects/untitled/src/components/Login",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,6 +55,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sophia\PycharmProjects\untitled\src\components\Login" />
       <recent name="C:\Users\Sophia\PycharmProjects\untitled\src" />
     </key>
   </component>
@@ -105,7 +104,7 @@
       <workItem from="1682475817786" duration="2585000" />
       <workItem from="1682479591516" duration="1419000" />
       <workItem from="1683512431996" duration="668000" />
-      <workItem from="1683513492523" duration="2355000" />
+      <workItem from="1683513492523" duration="7175000" />
     </task>
     <task id="LOCAL-00001" summary="v0.1 of food order website for frankie's">
       <created>1682366036134</created>
@@ -121,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683514353144</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update images">
+      <created>1683516505008</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683516505008</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +144,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/initial" />
                       </list>
                     </value>
                   </entry>
@@ -153,6 +159,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v0.1 of food order website for frankie's" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update images" />
+    <option name="LAST_COMMIT_MESSAGE" value="update images" />
   </component>
 </project>

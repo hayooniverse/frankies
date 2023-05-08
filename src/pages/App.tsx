@@ -7,6 +7,7 @@ import AuthService from "../services/auth.service";
 import IUser from '../types/user.type';
 
 import Login from "../components/Login/login.component";
+import Order from "../components/Login/order.component";
 import Register from "../components/Login/register.component";
 import Home from "../components/Login/home.component";
 import Profile from "../components/Login/profile.component";
@@ -173,6 +174,7 @@ class App extends Component<Props, State> {
             <Route path="/drink" element={<AvailableDrinks />} />
             <Route path="/snack" element={<AvailableSnack />} />
             <Route path="/food" element={<AvailableFood />} />
+            <Route path="/order" element={<Order />} />
           </Routes>
         </div>
 
