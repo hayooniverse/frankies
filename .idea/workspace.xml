@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="390c601d-4efb-4ca2-ad93-b5ce33bf745e" name="Changes" comment="v0.1 of food order website for frankie's">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bakeryimage/bananamuffin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bakeryimage/blueberrymuffin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bakeryimage/chocolatechipmuffin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bakeryimage/cookies.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bakeryimage/croissant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bakeryimage/doublechocolatemuffin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bakeryimage/raisinmuffin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/cooperlogo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/drinksimage/applejuice.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/drinksimage/coke.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/drinksimage/dietcoke.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/drinksimage/orangejuice.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/drinksimage/pepsi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/drinksimage/polandsprings.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/drinksimage/sprite.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/drinksimage/supercoffee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/foodimage/Fruit Box.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/foodimage/bagelwithcreamcheese.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/foodimage/cheeseburger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/foodimage/garlicsalmon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/foodimage/hamandcheesesandwich.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/foodimage/koreanbbq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/foodimage/salmonteriyaki.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/foodimage/spicychickensandwich.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/foodimage/stuffedshell.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frankieslogo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/proficon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/snacksimage/cheetos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/snacksimage/doritos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/snacksimage/granolabar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/snacksimage/layschips.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/snacksimage/milano.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/snacksimage/skittles.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/snacksimage/snickers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/transparentfrankies.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/config/auth.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/config/db.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/controllers/auth.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/controllers/user.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/hooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/mealSlice.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/middlewares/authJwt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/middlewares/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/middlewares/verifySignUp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/models/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/models/role.model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/models/user.model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/routes/auth.routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/routes/user.routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/meals.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/EventBus.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartIcon.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartItem.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Header.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/HeaderCartButton.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/HeaderCartButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/bakery.component.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/board-admin.component.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/board-moderator.component.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/board-user.component.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/drink.component.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/food.component.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/home.component.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/login.component.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/menu.component.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/profile.component.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/register.component.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/snack.component.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Meals/AvailableBakery.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Meals/AvailableDrinks.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Meals/AvailableFood.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Meals/AvailableMeals.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Meals/AvailableMeals.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Meals/AvailableSnack.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Meals/MealItem/MealItem.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Meals/MealItem/MealItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Meals/MealItem/MealItemForm.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Meals/MealItem/MealItemForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Card.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Input.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Input.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Modal.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Modal.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/auth-header.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/user.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/IMeal.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/user.type.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Oer1JrAzYnkcCOch2DBVJYCL8p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Sophia/PycharmProjects/untitled/src/server.js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Users/Sophia/AppData/Roaming/JetBrains/PyCharm2022.3/node/node-v16.16.0-win-x64/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PyCharm 2022.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sophia\PycharmProjects\untitled\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="Node.js.server.js" />
+      <item itemvalue="npm.npm start" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="390c601d-4efb-4ca2-ad93-b5ce33bf745e" name="Changes" comment="" />
+      <created>1681931671170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681931671170</updated>
+      <workItem from="1681931672286" duration="3249000" />
+      <workItem from="1682215896596" duration="7000" />
+      <workItem from="1682365755856" duration="11342000" />
+      <workItem from="1682475817786" duration="2585000" />
+      <workItem from="1682479591516" duration="1419000" />
+      <workItem from="1683512431996" duration="668000" />
+      <workItem from="1683513492523" duration="405000" />
+    </task>
+    <task id="LOCAL-00001" summary="v0.1 of food order website for frankie's">
+      <created>1682366036134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682366036134</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v0.1 of food order website for frankie's" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.1 of food order website for frankie's" />
+  </component>
+</project>
