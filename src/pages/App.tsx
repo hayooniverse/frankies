@@ -111,32 +111,24 @@ class App extends Component<Props, State> {
               </li> */}
               <ul>
                 <li>
-                  <a href="#AvailableFood">
                     <Link to={"/food"} className = "nav-button">
                       Food
                     </Link>
-                  </a>
                 </li>
                 <li>
-                  <a href="#AvailableBakery">
                     <Link to={"/bakery"} className = "nav-button">
                       Bakery
                     </Link>
-                  </a>
                 </li>
                 <li>
-                  <a href="#AvailableDrinks">
                     <Link to={"/drink"} className = "nav-button">
                       Drinks
                     </Link>
-                  </a>
                 </li>
                 <li>
-                  <a href="#AvailableSnack">
                     <Link to={"/snack"} className = "nav-button">
                       Snacks
                     </Link>
-                  </a>
                 </li>
                 <li>
                   <a href="#Login" onClick={this.logOut} className = "nav-button">
@@ -144,31 +136,17 @@ class App extends Component<Props, State> {
                     </a>
                 </li>
                 <li>
-                  <a href="#Profile">
                     <Link to={"/profile"} className = "nav-button">
                       Profile
                     </Link>
-                  </a>
                 </li>
               </ul>
             </div>
           ) : (
             <div>
               <ul>
-                <li>
-                <a href="#Login">
-                  <Link to={"/login"}>
-                    Login
-                  </Link>
-                </a>
-                  </li>
-                <li>
-                <a href="#Sign Up">
-                  <Link to={"/register"}>
-                    Sign Up
-                  </Link>
-                </a>
-                </li>
+                <li><Link to="/login">Login</Link></li>
+                <li><Link to="/register">Sign Up</Link></li>
               </ul>
             </div>
           )}
