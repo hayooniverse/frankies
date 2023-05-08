@@ -7,7 +7,7 @@ const AvailableDrinks = [
         id: "m1",
         name: "Poland Springs",
         price: 1,
-        image: "images/drinksimage/polandsprings.jpg"
+        image: "images/drinksimage/polandsprings.png"
     },
     {
         id: "m2",
