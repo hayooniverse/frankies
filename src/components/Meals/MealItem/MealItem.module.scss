@@ -13,6 +13,7 @@
 
 .meal.description {
   font-style: italic;
+  width: 60%
 }
 
 .meal.price {
@@ -20,4 +21,23 @@
   font-weight: bold;
   color: #ad5502;
   font-size: 1.25rem;
+}
+
+.imageContainer {
+  float: right;
+  // position: fixed;
+  width: 40%;
+  max-width: 200px;
+  margin-left: 20px;
+  margin-right: 50px;
+  padding-top: 10px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.words{
+  width: 60%;
 }

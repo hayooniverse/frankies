@@ -17,14 +17,17 @@ const MealItem = (props: any) => {
   }
 
   return (
-    <li className={classes.meal} style = {{paddingRight : '10px'}}>
-      <div>
+    <li className={classes.meal}>
+      <div className = {classes.words}>
         <h3>{meal.name}</h3>
         <div className={classes.description}>{meal.description}</div>
         <div className={classes.price}>{price}</div>
       </div>
-      <div style = {{paddingRight:'10px'}}>
+      <div className = {classes.words}>
         <MealItemForm onAddToCart={addToCartHandler}/>
+      </div>
+      <div className = {classes.imageContainer}>
+        <img src={meal.image} className = {classes.image}/>
       </div>
     </li>
   );
