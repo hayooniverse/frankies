@@ -8,24 +8,28 @@ const AvailableBakery = [
         name: "Chocolate Chip Muffin",
         description: "Muffins with chocolate chips",
         price: 3,
+        image: "images/bakeryimage/chocolatechipmuffin.jpg"
     },
     {
         id: "m2",
         name: "Double Chocolate Muffin",
         description: "Chocolate muffins with chocolate chips",
-        price: 3
+        price: 3,
+        image: "images/bakeryimage/doublechocolatemuffin.jpg"
     },
     {
         id: "m3",
         name: "Blueberry Muffin",
         description: "Muffins with sweet blueberry",
         price: 3,
+        image: "images/bakeryimage/blueberrymuffin.jpg"
     },
     {
         id: "m4",
         name: "Raisin Muffin",
         description: "Muffins with raisins",
         price: 3,
+        image: "images/bakeryimage/raisinmuffin.jpg"
 
     },
     {
@@ -33,6 +37,7 @@ const AvailableBakery = [
         name: "Banana Muffin",
         description: "Muffins with banana seeds",
         price: 3,
+        image: "images/bakeryimage/bananamuffin.jpg"
 
     },
     {
@@ -40,6 +45,7 @@ const AvailableBakery = [
         name: "Croissant",
         description: "Soft croissants made with excellent butter",
         price: 4,
+        image: "images/bakeryimage/croissant.jpg"
 
     },
     {
@@ -47,6 +53,7 @@ const AvailableBakery = [
         name: "Cookies",
         description: "A pack of 2 chocolate chip cookies and 1 white chocolate with macadmia nuts cookie",
         price: 3,
+        image: "images/bakeryimage/cookies.jpg"
 
     }
 ];
