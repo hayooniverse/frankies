@@ -1,5 +1,4 @@
 import React, { Fragment, useState } from "react";
-import MealsSummary from "./MealsSummary";
 import AvailableMeals from "./AvailableMeals";
 
 import {store} from "../../app/store";
