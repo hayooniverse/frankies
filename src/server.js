@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const dbConfig = require("./app/config/db.config");
+const mongoose = require("mongoose");
 
 const app = express();
 
@@ -15,6 +16,7 @@ app.use(express.json());
 
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true }));
+
 
 const db = require("./app/models");
 const Role = db.role;
@@ -32,6 +34,8 @@ db.mongoose
     console.error("Connection error", err);
     process.exit();
   });
+
+
 
 // simple route
 app.get("/", (req, res) => {
