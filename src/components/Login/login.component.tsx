@@ -59,9 +59,15 @@ export default class Login extends Component<Props, State> {
 
     AuthService.login(username, password).then(
       () => {
-        this.setState({
-          redirect: "/profile"
-        });
+        if (username === "admin"){
+          this.setState({
+            redirect: "/board-admin"
+          });
+        } else {
+          this.setState({
+            redirect: "/profile"
+          });
+        }
       },
       error => {
         const resMessage =
