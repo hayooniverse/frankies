@@ -2,6 +2,12 @@ import { Component } from "react";
 
 import UserService from "../../services/user.service";
 import EventBus from "../../common/EventBus";
+import Food from "../../components/Meals/Food";
+import Bakery from "../../components/Meals/Bakery";
+import Drink from "../../components/Meals/Drink";
+import Snacks from "../../components/Meals/Snack";
+
+
 
 type Props = {};
 
@@ -42,12 +48,30 @@ export default class BoardAdmin extends Component<Props, State> {
     );
   }
 
+//   render() {
+//     return (
+//       <div className="container">
+//         <header className="jumbotron">
+//           <h3>{this.state.content}</h3>
+//           <strong>hi</strong>
+//         </header>
+//       </div>
+//     );
+//   }
+// }
+
   render() {
+
     return (
       <div className="container">
-        <header className="jumbotron">
-          <h3>{this.state.content}</h3>
-        </header>
+          <div>
+              <main>
+                  <Food/>
+                  <Bakery/>
+                  <Drink/>
+                  <Snacks/>
+              </main>
+          </div>
       </div>
     );
   }

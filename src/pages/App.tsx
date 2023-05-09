@@ -147,7 +147,7 @@ class App extends Component<Props, State> {
               <ul>
                 <li><Link to="/login">Login</Link></li>
                 <li><Link to="/register">Sign Up</Link></li>
-                <li><Link to="/board-admin">Admin</Link></li>
+                <li><Link to="/admin">Admin</Link></li>
               </ul>
             </div>
           )}

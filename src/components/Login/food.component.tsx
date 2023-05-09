@@ -3,6 +3,7 @@ import { Navigate } from "react-router-dom";
 import AuthService from "../../services/auth.service";
 import IUser from "../../types/user.type";
 import FoodList from "../../components/Meals/Food";
+import DrinkList from "../../components/Meals/Drink";
 
 type Props = {};
 
