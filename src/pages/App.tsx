@@ -84,6 +84,7 @@ class App extends Component<Props, State> {
                             <ul>
                               <li><Link to = {"/admin"} className = "nav-button">Admin</Link></li>
                               <li><Link to = {"/profile"} className = "nav-button">Profile</Link></li>
+                              <li><Link to = {"/adminorders"} className = "nav-button">Check Orders</Link></li>
                               <li><Link to = {"/Login"} onClick = {this.logOut} className = "nav-button">Log Out</Link></li>
                             </ul>
                           </div>
