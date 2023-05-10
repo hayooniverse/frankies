@@ -4,49 +4,49 @@ import classes from "./AvailableMeals.module.scss";
 
 const AvailableDrinks = [
     {
-        id: "m1",
+        id: "d1",
         name: "Poland Springs",
         price: 1,
         image: "images/drinksimage/polandsprings.png"
     },
     {
-        id: "m2",
+        id: "d2",
         name: "Coke",
         price: 2,
         image: "images/drinksimage/coke.jpg"
     },
     {
-        id: "m3",
+        id: "d3",
         name: "Diet Coke",
         price: 2,
         image: "images/drinksimage/dietcoke.jpg"
     },
     {
-        id: "m4",
+        id: "d4",
         name: "Sprite",
         price: 2,
         image: "images/drinksimage/sprite.jpg"
     },
     {
-        id: "m5",
+        id: "d5",
         name: "Pepsi",
         price: 2,
         image: "images/drinksimage/pepsi.jpg"
     },
     {
-        id: "m6",
+        id: "d6",
         name: "Super Coffee",
         price: 4,
         image: "images/drinksimage/supercoffee.jpg"
     },
     {
-        id: "m7",
+        id: "d7",
         name: "Orange Juice",
         price: 3,
         image: "images/drinksimage/orangejuice.jpg"
     },
     {
-        id: "m8",
+        id: "d8",
         name: "Apple Juice",
         price: 3,
         image: "images/drinksimage/applejuice.jpg"
