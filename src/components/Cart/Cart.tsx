@@ -7,7 +7,6 @@ import {addMeal, removeMeal, emptyCart} from "../../app/mealSlice";
 import {Link} from "react-router-dom";
 import {useState} from "react";
 
-
 const Cart = (props: any): JSX.Element => {
     const [amountIsValid, setAmountIsValid] = useState(true);
     const dispatch = useAppDispatch();
@@ -83,14 +82,11 @@ const Cart = (props: any): JSX.Element => {
                             <button onClick={event => {
                                 cartItemEmptyHandler();
                                 buttonHandler(event);
-                            }} className="button" name="button 1">Order
+                            }} className="button" name="button 1"><Link to={"/order"} style={{color: "black"}}>
+                                Order Page
+                            </Link>
                             </button>
                         </form>
-                        <h3>
-                        </h3>
-                        <Link to={"/order"}>
-                            Order Page
-                        </Link>
                     </div>
                 )}
             </div>
