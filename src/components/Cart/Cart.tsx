@@ -80,7 +80,7 @@ const Cart = (props: any): JSX.Element => {
                 {hasMeals && (
                     <div className="container">
                         <form>
-                                                        <button onClick={event => {
+                            <button onClick={event => {
                                 cartItemEmptyHandler();
                                 buttonHandler(event);
                             }} className="button" name="button 1"><Link to={"/order"}>
