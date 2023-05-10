@@ -77,10 +77,11 @@ class App extends Component<Props, State> {
                                  style={{height: '100px', width: 'Auto'}}/>
                         </a>
                     </div>
-                    <Header/>
+                    {/* <Header/> */}
                     <div>
                         {currentUser ? (
                             <div>
+                              <Header/>
                                 <ul>
                                     <li>
                                         <Link to={"/food"} className="nav-button">
@@ -103,9 +104,9 @@ class App extends Component<Props, State> {
                                         </Link>
                                     </li>
                                     <li>
-                                        <a href="#Login" onClick={this.logOut} className="nav-button">
+                                        <Link to ={"/Login"} onClick={this.logOut} className="nav-button">
                                             Log Out
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
                                         <Link to={"/profile"} className="nav-button">
