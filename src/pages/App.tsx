@@ -77,7 +77,7 @@ class App extends Component<Props, State> {
                                  style={{height: '100px', width: 'Auto'}}/>
                         </a>
                     </div>
-                    {/* <Header/> */}
+                    <Header/>
                     <div>
                       {currentUser ? (
                         isAdmin? (
