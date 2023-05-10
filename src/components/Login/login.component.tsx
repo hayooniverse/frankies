@@ -61,7 +61,7 @@ export default class Login extends Component<Props, State> {
       () => {
         if (username === "admin"){
           this.setState({
-            redirect: "/board-admin"
+            redirect: "/admin"
           });
         } else {
           this.setState({
