@@ -36,7 +36,7 @@ export default class Profile extends Component<Props, State> {
         const {currentUser} = this.state;
 
         return (
-            <div className="container">
+            <div className="container" style={{paddingLeft: 20}}>
                 {(this.state.userReady) ?
                     <div className="container">
 

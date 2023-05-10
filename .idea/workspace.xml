@@ -4,28 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="390c601d-4efb-4ca2-ad93-b5ce33bf745e" name="Changes" comment="added order page">
+    <list default="true" id="390c601d-4efb-4ca2-ad93-b5ce33bf745e" name="Changes" comment="clean up code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/meals.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/board-admin.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/board-admin.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/menu.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/menu.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/order.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/order.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartItem.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Login/profile.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/profile.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/register.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/register.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Meals/AvailableBakery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/AvailableBakery.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Meals/AvailableDrinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/AvailableDrinks.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Meals/AvailableFood.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/AvailableFood.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Meals/AvailableMeals.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/AvailableMeals.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Meals/AvailableSnack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/AvailableSnack.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Meals/Bakery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/Bakery.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Meals/Drink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/Drink.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Meals/Food.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/Food.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Meals/MealItem/MealItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/MealItem/MealItemForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Meals/Meals.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/Meals.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Meals/Snack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/Snack.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/App.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683691482584</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="clean up code">
+      <created>1683691997883</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683691997883</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +174,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="changed background color" />
     <MESSAGE value="added order page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added order page" />
+    <MESSAGE value="clean up code" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean up code" />
   </component>
 </project>
