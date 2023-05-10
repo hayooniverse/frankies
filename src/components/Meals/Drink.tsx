@@ -20,7 +20,7 @@ const Meals = () => {
     <Fragment>
         <Provider store={store} >
             {showCart && <Cart onHideCart={hideCartHandler} />}
-            <Header onShowCart={showCartHandler} />
+            {/* <Header onShowCart={showCartHandler} /> */}
             <main>
                 <Drink />
             </main>
