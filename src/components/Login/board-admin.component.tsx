@@ -54,10 +54,10 @@ export default class BoardAdmin extends Component<Props, State> {
       <div className="container">
           <div>
               <main>
-                  <Food/>
-                  <Bakery/>
-                  <Drink/>
-                  <Snacks/>
+                  <Food showHeader={false}/>
+                  <Bakery showHeader = {false}/>
+                  <Drink showHeader = {false}/>
+                  <Snacks showHeader = {false}/>
               </main>
           </div>
       </div>

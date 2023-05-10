@@ -5,7 +5,12 @@ import {Provider} from "react-redux";
 import Header from "../Layout/Header"
 import Cart from "../Cart/Cart"
 import Drink from "./AvailableDrinks";
-const Meals = () => {
+
+interface Props{
+  showHeader?: boolean;
+}
+
+const Meals = ({showHeader=true}: Props) => {
   const [showCart, setShowCart] = useState(false);
 
   const showCartHandler = () => {
@@ -20,7 +25,7 @@ const Meals = () => {
     <Fragment>
         <Provider store={store} >
             {showCart && <Cart onHideCart={hideCartHandler} />}
-            <Header onShowCart={showCartHandler} />
+            {showHeader && <Header onShowCart={showCartHandler} />}
             <main>
                 <Drink />
             </main>
