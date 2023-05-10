@@ -67,7 +67,7 @@ class App extends Component<Props, State> {
 
     render() {
         const {currentUser, showModeratorBoard, showAdminBoard} = this.state;
-
+        const isAdmin = currentUser?.username === 'admin';
         return (
             <div className="homepage">
                 <header className="navbar navbar-expand navbar-dark bg-dark">
@@ -79,7 +79,16 @@ class App extends Component<Props, State> {
                     </div>
                     {/* <Header/> */}
                     <div>
-                        {currentUser ? (
+                      {currentUser ? (
+                        isAdmin? (
+                          <div>
+                            <ul>
+                              <li><Link to = {"/admin"} className = "nav-button">Admin</Link></li>
+                              <li><Link to = {"/profile"} className = "nav-button">Profile</Link></li>
+                              <li><Link to = {"/Login"} onClick = {this.logOut} className = "nav-button">Log Out</Link></li>
+                            </ul>
+                          </div>
+                        ):(
                             <div>
                               <Header/>
                                 <ul>
@@ -115,12 +124,13 @@ class App extends Component<Props, State> {
                                     </li>
                                 </ul>
                             </div>
+                        )
                         ) : (
                             <div>
                                 <ul>
                                     <li><Link to="/login">Login</Link></li>
                                     <li><Link to="/register">Sign Up</Link></li>
-                                    <li><Link to="/admin">Admin</Link></li>
+                                    {/* <li><Link to="/admin">Admin</Link></li> */}
                                 </ul>
                             </div>
                         )}
