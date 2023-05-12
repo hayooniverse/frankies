@@ -9,7 +9,17 @@ The only source of food in the building 41 Cooper Square is a small cafeteria ca
 2. Admin
 
 ## Getting Started
-1. Type 'npm install' in the command lines
-2. Download [MongoDB Compass](https://www.mongodb.com/try/download/shell)
-3. In /frankies/src, run node server.js
-4. In the project directory, type npm start
+1. Type `npm install` in the command lines
+2. Download [MongoDB Compass](https://www.mongodb.com/try/download/shell) and follow instructions to install.
+3. Install [Node](https://nodejs.org/en/download)
+4. In /frankies/src, run `node server.js`
+5. In the project directory, type `npm start`
+
+## Creating the Admin Account
+1. Go to the sign up page
+2. Create a new account with the username `admin` (you can choose the email address and the password)
+3. Log in with the username 'admin'
+
+## Backend Server
+You can check the backend database for the user details through MongoDB Compass that you installed earlier.
+Clicking on Databases > local > users should contain all the details of the user accounts that you have made.
